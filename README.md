@@ -25,9 +25,19 @@ A partir de él se ha creado el tema hijo `tueste-norte`, donde se han realizado
 
 ## Plugins utilizados
 
-- **Advanced Custom Fields (ACF):** utilizado para crear campos personalizados en las fichas de los cafés, como origen, notas de cata, nivel de tueste y precio.
-- **Forminator:** utilizado para crear el formulario de contacto de la web.
-- **Yoast SEO:** utilizado para incorporar herramientas básicas de posicionamiento SEO al sitio.
+## Plugins utilizados
+
+- **Advanced Custom Fields (ACF)**
+  - **Categoría:** Campos personalizados.
+  - **Motivo de elección:** utilizado para crear campos personalizados en las fichas de los cafés, como origen, notas de cata, nivel de tueste y precio.
+
+- **Forminator**
+  - **Categoría:** Formularios.
+  - **Motivo de elección:** utilizado para crear el formulario de contacto de la web y validar los datos introducidos por el usuario.
+
+- **Yoast SEO**
+  - **Categoría:** SEO.
+  - **Motivo de elección:** utilizado para incorporar herramientas básicas de posicionamiento SEO al sitio.
 
 ## Contenido del sitio
 
@@ -42,8 +52,6 @@ Además, se ha creado una entrada normal de blog para comprobar que las entradas
 Se ha creado el usuario `marta` con el rol de Editor.
 
 Este rol permite gestionar el contenido del sitio sin darle acceso a configuraciones administrativas que podrían afectar al funcionamiento de WordPress.
-
-## Cómo restaurar el proyecto
 
 ## Cómo restaurar el proyecto
 
