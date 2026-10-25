@@ -63,3 +63,7 @@ En el repositorio se versionan principalmente:
 - `README.md`
 
 Los archivos del núcleo de WordPress y el archivo `wp-config.php` quedan excluidos del repositorio mediante `.gitignore`.
+
+## Base de datos
+
+La copia de la base de datos del proyecto se encuentra en `db/tueste-norte.sql` y puede importarse mediante phpMyAdmin para restaurar el contenido del sitio.
