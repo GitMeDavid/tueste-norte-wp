@@ -1,0 +1,21 @@
+/*Este archivo pertenece a un tema llamado Mi Child y su tema padre es Twenty Twenty-One. muy importante colocar las caracteristicas de abajo en dos líneas*/
+
+/*
+Theme Name: Mi Child
+Template: twentytwentyone
+*/
+
+body {
+    background-color: #f2eee6 !important;
+}
+
+a {
+    color: #8b4513 !important;
+}
+
+.aviso-acf {
+    max-width: var(--responsive--aligndefault-width); /* hace que el aviso utilice un ancho coherente con el contenido del tema*/
+    margin-left: auto;
+    margin-right: auto; /* centra ese bloque horizontalmente dentro de la página*/
+    text-align:center;
+}

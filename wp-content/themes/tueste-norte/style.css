@@ -1,0 +1,78 @@
+/*
+Theme Name: Tueste Norte
+Template: twentytwentyone
+*/
+body {
+    background-color: #f5f1e8 !important; /*le dice al navegador que nuestra regla del tema hijo
+    debe tener prioridad sobre la que está imponiendo twenty twenty-one*/
+    color: #2f2f2f;
+    font-family: Arial, sans-serif;
+}
+
+.site-header {
+    background-color: #4b2e20;
+    border-bottom: 6px solid #aaa8a8;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    max-width: none !important;
+}
+
+.site-title {
+    color: white !important;
+}
+
+.site-description {
+    color: white !important;
+}
+
+.primary-navigation a {
+    color: white !important;
+}
+
+.ficha-cafe {
+    background-color: #f2eee6;
+    padding: 25px;
+    border: 1px solid #8b4513;
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.site-footer {
+    background-color: #4b2e20;
+    border-top: 6px solid #aaa8a8;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 100% !important;
+    max-width: none !important;
+}
+
+.site-footer,
+.site-footer a {
+    color: white !important;
+}
+
+.site-footer .site-name,
+.site-footer .powered-by {
+    color: white !important;
+}
+
+#boton-catas .wp-block-button__link {
+    background-color: #775f53 !important;
+}
+
+#boton-catas .wp-block-button__link:hover {
+    background-color: #8d6b6b !important;
+}
+
+.site-info p {
+    color: white !important;
+    text-align: center;
+    
+}
+
+.site-footer .site-info {
+    justify-content: center;
+}
