@@ -45,13 +45,16 @@ Este rol permite gestionar el contenido del sitio sin darle acceso a configuraci
 
 ## Cómo restaurar el proyecto
 
+## Cómo restaurar el proyecto
+
 1. Instalar XAMPP e iniciar Apache y MySQL.
-2. Copiar el proyecto en la carpeta `htdocs` de XAMPP con el nombre `tueste-norte-wp`.
-3. Crear en phpMyAdmin una base de datos llamada `tueste_norte_wp`.
-4. Importar en esa base de datos el archivo `db/tueste-norte.sql` incluido en el proyecto.
-5. Crear o configurar el archivo `wp-config.php` con los datos de conexión de la base de datos local.
-6. Comprobar que `WP_DEBUG` está activado durante el desarrollo.
-7. Abrir en el navegador `http://localhost/tueste-norte-wp`.
+2. Descargar una instalación limpia de WordPress y colocarla en `htdocs` con el nombre `tueste-norte-wp`.
+3. Copiar la carpeta `wp-content` de este repositorio dentro de la instalación de WordPress, sustituyendo la carpeta `wp-content` existente.
+4. Crear en phpMyAdmin una base de datos llamada `tueste_norte_wp`.
+5. Importar en esa base de datos el archivo `db/tueste-norte.sql` incluido en este repositorio.
+6. Crear o configurar el archivo `wp-config.php` con los datos de conexión de la base de datos local.
+7. Comprobar que `WP_DEBUG` está activado durante el desarrollo.
+8. Abrir en el navegador `http://localhost/tueste-norte-wp`.
 
 ## Versionado del proyecto
 
