@@ -9,3 +9,8 @@
 !/db/**
 !/docs/
 !/docs/**
+
+/wp-content/plugins/
+!/wp-content/plugins/tn-ejercicios/
+!/wp-content/plugins/tn-ejercicios/**
+/wp-content/upgrade*
