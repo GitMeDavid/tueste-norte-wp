@@ -106,3 +106,18 @@ function tueste_norte_destacar_cafe( $contenido ) {
 }
 
 add_filter( 'the_content', 'tueste_norte_destacar_cafe' );
+
+function tueste_norte_anadir_imagen_rest() {
+
+    register_rest_field(
+        'cafe',
+        'imagen_destacada',
+        array(
+            'get_callback' => function ( $cafe ) {
+                return get_the_post_thumbnail_url( $cafe['id'], 'full' );
+            },
+        )
+    );
+}
+
+add_action( 'rest_api_init', 'tueste_norte_anadir_imagen_rest' );
