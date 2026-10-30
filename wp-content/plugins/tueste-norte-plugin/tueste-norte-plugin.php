@@ -28,6 +28,7 @@ function tueste_norte_registrar_cafe() {
         'has_archive'  => true,
         'show_in_rest' => true,
         'rest_base'    => 'cafes',
+        'rewrite' => array( 'slug' => 'cafes' ),
         'supports'     => array( 'title', 'editor', 'thumbnail' ),
     );
 
