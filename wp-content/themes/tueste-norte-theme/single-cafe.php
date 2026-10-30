@@ -17,7 +17,7 @@
 </p>
 <p>
     <strong>Notas de cata:</strong>
-    <?php the_field( 'notas_de_cata' ); ?>
+    <?php the_field( 'notas_cata' ); ?>
 </p>
 <p>
     <strong>Nivel de tueste:</strong>
